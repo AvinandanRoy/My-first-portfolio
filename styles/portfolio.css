@@ -64,9 +64,19 @@ nav ul {
     border-radius: 5px;
     background: #FD6E0A;
     border-color: #FD6E0A;
+    border: none;
 }
 
 .button-portfolio li {
     margin: 50px 230px 0px -380px;
-    ;
+}
+
+/* banner styles */
+
+.banner{
+    margin: 0px 200px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
