@@ -10,7 +10,12 @@
 }
 
 /* header and navigation style */
-
+header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -98,4 +103,8 @@ nav ul {
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
+}
+
+.banner-button{
+    display: flex;
 }
