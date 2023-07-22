@@ -10,12 +10,13 @@
 }
 
 /* header and navigation style */
-header{
+header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom 0% right 0%;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -79,7 +80,7 @@ nav ul {
 /* banner styles */
 
 .banner {
-    margin: 0px 200px;
+    margin: 0px 120px 0px 200px;
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -105,6 +106,59 @@ nav ul {
     margin-top: 20px;
 }
 
-.banner-button{
+.banner-button {
     display: flex;
+    margin-top: 60px;
+}
+
+.banner-button1 {
+    margin-right: 70px;
+}
+
+.habijabi a {
+    display: flex;
+    padding: 19px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white-color, #FFF);
+    border-radius: 5px;
+    background: #FD6E0A;
+    align-items: center;
+    text-decoration: none;
+    border-color: #FD6E0A;
+}
+
+.habijabi i {
+    margin-right: 15px;
+}
+
+.habijabi{
+    border: none;
+}
+
+.habijabi2 a{
+    display: flex;
+    padding: 17px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    align-items: center;
+    text-decoration: none;
+    border-color: #FD6E0A;
+}
+
+.habijabi2{
+    border-width: 1px;
+    border-color: #FD6E0A;
+}
+
+.habijabi2 i {
+    margin-right: 10px;
+}
+
+/* main */
+.main{
+    margin: 130px 230px 0px 230px ;
 }
